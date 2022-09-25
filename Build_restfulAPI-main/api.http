@@ -1,0 +1,16 @@
+GET http://localhost:3000/api/users
+
+
+###
+
+DELETE http://localhost:3000/api/users/62dfc8357f41f210e07a9af9
+Content-Type: application/json
+
+###
+PATCH http://localhost:3000/api/users/me
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MmRmYzgzNTdmNDFmMjEwZTA3YTlhZjgiLCJpYXQiOjE2NTkwMTQ2MzEsImV4cCI6MTY1OTAxODIzMX0.3Jed6_EQg3hrK1uZOZSzxCbSYK70Qr3Z3zcjq7Gjag8
+
+{
+    "email":"ersincol235@gmail.com"
+}
